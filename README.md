@@ -17,7 +17,7 @@ To calculate the total wave energy flux from the wave envelopes the user must fi
 The parameters that can be changed are at the begining of the code. These parameters are:
 
 | Parameter | Description |
-| --- |
+| --- | --- |
 | B0        | background magnetic field strength                               |
 | rho0      | characteristic density                                           |
 | nr        | number of cells in redial direction                              |
@@ -51,7 +51,7 @@ The parameters that can be changed are at the begining of the code. These parame
 All outputs are contain 2D arrays defining some variable at each grid point over the domain.
 
 | Output | Description |
-| --- | ----- | --- |
+| --- | --- |
 | Va.dat           | Alfv&egrave;n velocity  |
 | Br.dat           | background magnetic field in radial direction      |
 | Bz.dat           | background magnetic field in verical direction      |
