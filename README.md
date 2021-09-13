@@ -18,19 +18,33 @@ The parameters that can be changed are at the begining of the code. These parame
 
 | Parameter | Description |
 | --- | --- |
-| b0     | background magnetic field strength                               |
-| rho0   | characteristic density                                           |
-| rsize  | number of cells in redial direction                              |
-| zsize  | number of cells in vertical direction                            |
-| rdim   | dimension of domain in the radial direction                      |
-| zdim   | dimension of domain in the vertical direction                    |
-| H      | magnetic scale height                                            |
+| B0        | background magnetic field strength                               |
+| rho0      | characteristic density                                           |
+| nr        | number of cells in redial direction                              |
+| nz        | number of cells in vertical direction                            |
+| rmin      | minimum radius of domain                                         |
+| rmax      | maximum radius of domain                                         |
+| zmin      | minimum height of domain                                         |
+| zmax      |  maximum height of domain                                        |
+| t_end     |  simulation run time                                             |
+| t_interval|  time interval between outputs                                   |
+| t0        |  rampup time                                                     |
+| save_dir  |  directory to save outputs to                                    |
+| H      | magnetic scale height                                               |
+| visc   | kinematic viscosity                                                 |
+| period | wave period in seconds                                              |
 | alpha  | &alpha; parameter, defines density scale height through 	&alpha; = H/H<sub>&rho;</sub>    |
-| r0     | radius of central higher density tube                            |
-| zeta   | density contrast between tube centre and background density      |
-| u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>&-1;</sup>       |
-| period | wave period in seconds                                           |
-| t0     | wave phase of solution as time in seconds (usually left as zero) |
+| zeta   | density contrast between tube centre and background density         |
+| u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>&-1;</sup>          |
+| r0     | radius of central higher density tube                               |
+| omega  | the Alfv&egrave;n  wave frequency, currently defined based on the period |
+| topdamp  | logical for top boundary damping|
+| outdamp  | logical for outer boundary damping |
+| restart  | logical for whether to load from a restart file |
+| v_in     | file names for the velocity restart file |
+| b_in     | file names for the magnetic field restart file|
+| restart_time | the simulation time for the restart files |
+| last_output  | the output index for the restart files |
 
 ## Outputs
 
@@ -53,6 +67,6 @@ The parameters that can be changed are at the begining of the code. These parame
 | en_lvl       | 1D array              | wave energy flux across each magnetic surface in Watts                        |
 | en_lvl_norm  | 1D array              | wave energy flux normalised by the wave energy flux at the lowest surface     |
 
-## 
+## makesavs.pro
 
-## Outputs
+## wave_energy.pro
