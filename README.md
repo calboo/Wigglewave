@@ -63,6 +63,8 @@ All outputs are contain 2D arrays defining some variable at each grid point over
 
 ## makesavs.pro
 
-makesavs.pro is an IDL script that can be used to transform the outputs from Wigglewave from .dat fils into .sav files which can then be accessed by wave_energy.pro to calculate the wave energy flux across magnetic surfaces. The user must specify the grid dimensions in radial and vertical directions, dr and dz respectively; the location of the output files to convert, dir; and the output index of the files to convert, snapshot, which must be written as a three digit number including leading zeroes. 
+makesavs.pro is an IDL script that can be used to transform the outputs from Wigglewave from .dat fils into .sav files which can then be accessed by wave_energy.pro to calculate the wave energy flux across magnetic surfaces. 
+
+The user must specify the grid dimensions in radial and vertical directions, nr and nz; the location of the output files to convert, dir; and the output index of the files to convert, snapshot, which must be written as a three digit number including leading zeroes. 
 
 ## wave_energy.pro
