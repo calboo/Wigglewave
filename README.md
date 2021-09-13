@@ -17,7 +17,7 @@ To calculate the total wave energy flux from the wave envelopes the user must fi
 The parameters that can be changed are at the begining of the code. These parameters are:
 
 | Parameter | Description |
-| --- | --- |
+| --- |
 | B0        | background magnetic field strength                               |
 | rho0      | characteristic density                                           |
 | nr        | number of cells in redial direction                              |
