@@ -1,6 +1,6 @@
 # Wigglewave
 
-WiggleWave is a FORTRAN code that uses an RK4 finite difference method to solve the linearised governing equations for a torsion Alfv&egrave;n wave propagating in a plasma with negligible plasma beta and in a force-free axisymmetric magnetic field with no azimuthal component embedded in a high density divergent tube structure. The solutions calculated are the perturbations to the velocity, v and to the magnetic field, b. All variables are calculated over a uniform grid in radius r and height z. An in-depth explanation of the code can be found in the accompanying PDF document Wigglewave equations.
+Wigglewave is a FORTRAN code that uses an RK4 finite difference method to solve the linearised governing equations for a torsion Alfv&egrave;n wave propagating in a plasma with negligible plasma beta and in a force-free axisymmetric magnetic field with no azimuthal component embedded in a high density divergent tube structure. The solutions calculated are the perturbations to the velocity, v and to the magnetic field, b. All variables are calculated over a uniform grid in radius r and height z. An in-depth explanation of the code can be found in the accompanying PDF document Wigglewave equations.
 
 ## Usage
 
