@@ -50,7 +50,7 @@ The parameters that can be changed are at the begining of the code. These parame
 
 All outputs are contain 2D arrays defining some variable at each grid point over the domain.
 
-| Output | Format | Description |
+| Output | Description |
 | --- | ----- | --- |
 | Va.dat           | Alfv&egrave;n velocity  |
 | Br.dat           | background magnetic field in radial direction      |
