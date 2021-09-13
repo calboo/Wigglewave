@@ -48,24 +48,20 @@ The parameters that can be changed are at the begining of the code. These parame
 
 ## Outputs
 
+All outputs are contain 2D arrays defining some variable at each grid point over the domain.
+
 | Output | Format | Description |
 | --- | ----- | --- |
-| br           | 2D array              | background magnetic field in radial direction        |
-| bz           | 2D array              | background magnetic field in vertical direction      |
-| rho          | 2D array              | density across domain                                |
-| phi          | 2D array              | curvilinear coorinate along field lines &phi;        |
-| psi          | 2D array              | curvilinear coorinate along field lines &psi;        |
-| hparam       | 2D array              | phase parameter h , see below for more details       |
-| W            | 2D complex array      | wave parameter W , see below for more details        |
-| v_env        | 2D complex array      | envelope of the velocity perturbation                |
-| b_env        | 2D complex array      | envelope of the magnetic field perturbation          |
-| v            | 2D complex array      | azimuthal velocity perturbation                      |
-| bwave        | 2D complex array      | azimuthal magnetic field perturbation                |
-| sigma        | 2D array              | WKB parameter &sigma;, see below for more details    |
-| zscale       | 1D array              | heights at which each magnetic surface intersects the z-axis, in metres       |
-| hscale       | 1D array              | heights at which each magnetic surface intersects the z-axis, in units of H   |
-| en_lvl       | 1D array              | wave energy flux across each magnetic surface in Watts                        |
-| en_lvl_norm  | 1D array              | wave energy flux normalised by the wave energy flux at the lowest surface     |
+| Va.dat           | Alfv&egrave;n velocity  |
+| Br.dat           | background magnetic field in radial direction      |
+| Bz.dat           | background magnetic field in verical direction      |
+| rho.dat          | density |
+| phi.dat          | curvilinear coorinate along field lines &phi;     |
+| psi.dat          | curvilinear coorinate along magnetic surfaces &psi;      |
+| v_n.dat            | velocity perturbation output for output index n  |
+| env_v_n.dat        | envelope for velocity perturbation output for output index n   |
+| b_n.dat        | magnetic field perturbation output for output index n |
+| env_b_n.dat            | envelope for magnetic field perturbation output for output index n  |
 
 ## makesavs.pro
 
