@@ -1,6 +1,6 @@
 # Wigglewave
 
-Wigglewave is a FORTRAN code that uses an RK4 finite difference method to solve the linearised governing equations for a torsion Alfv&egrave;n wave propagating in a plasma with negligible plasma beta and in a force-free axisymmetric magnetic field with no azimuthal component embedded in a high density divergent tube structure. The solutions calculated are the perturbations to the velocity, v and to the magnetic field, b. All variables are calculated over a uniform grid in radius r and height z. An in-depth explanation of the code can be found in the accompanying PDF document Wigglewave equations.
+Wigglewave is a FORTRAN code that uses an RK4 finite difference method to solve the linearised governing equations for a torsion Alfv&egrave;n wave propagating in a plasma with negligible plasma beta and in a force-free axisymmetric magnetic field with no azimuthal component embedded in a high density divergent tube structure. The solutions calculated are the perturbations to the velocity, v and to the magnetic field, b. All variables are calculated over a uniform grid in radius r and height z. An in-depth explanation of the code can be found in the accompanying PDF document Wigglewave_equations.pdf.
 
 ## Usage
 
@@ -68,3 +68,5 @@ makesavs.pro is an IDL script that can be used to transform the outputs from Wig
 The user must specify the grid dimensions in radial and vertical directions, nr and nz; the location of the output files to convert, dir; and the output index of the files to convert, snapshot, which must be written as a three digit number including leading zeroes. 
 
 ## wave_energy.pro
+
+wave_energy.pro is an IDL script that uses outputs from Wigglewave to calculate the wave energy flux across magnetic surfaces at different heights. Before using wave_energy.pro, however, the outputs must be converted to .sav format using makesavs.pro. A detailed description of how wave_energy.pro works and what calculations it makes can be found in the accompanying PDF document wave_energy.pdf
