@@ -4,11 +4,13 @@ WiggleWave is a FORTRAN code that uses an RK4 finite difference method to solve 
 
 ## Usage
 
-TAWAS can be run simply using IDL. 
+WiggleWave can be run simply compiled and run using gfortran. 
 
-The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. Under the parameters the user can set the variable 'plotting' which decides which plots are shown by the script. The options for plotting are given in the code. The user can chose the location to save the outputs by changing the variables save_dir and run_name listed just below the parameters.
+The code requires no input files but the user is able to change the problem parameters in the Constants module, the parameters are listed in the first table below.
 
-The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and the wave energy flux . The outputs are saved as .sav files and are listed in the second table below.
+The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and wave envelopes for these perturbations. The outputs are saved as .dat files and are listed in the second table below.
+
+To calculate the total wave energy flux from the wave envelopes the user must first convert the output files from .dat to .sav files using the IDL script makesavs.pro and then use the IDL script wave_enrgy.pro on the .sav files generated.
 
 ## Input Parameters
 
@@ -50,3 +52,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | hscale       | 1D array              | heights at which each magnetic surface intersects the z-axis, in units of H   |
 | en_lvl       | 1D array              | wave energy flux across each magnetic surface in Watts                        |
 | en_lvl_norm  | 1D array              | wave energy flux normalised by the wave energy flux at the lowest surface     |
+
+## 
+
+## Outputs
