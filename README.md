@@ -4,9 +4,7 @@ Wigglewave is a FORTRAN code that uses an RK4 finite difference method to solve 
 
 ## Usage
 
-WiggleWave can be run simply compiled and run using gfortran. 
-
-The code requires no input files but the user is able to change the problem parameters in the Constants module, the parameters are listed in the first table below.
+WiggleWave can be run simply compiled and run using gfortran. The code requires no input files but the user is able to change the problem parameters in the Constants module, the parameters are listed in the first table below.
 
 The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and wave envelopes for these perturbations. The outputs are saved as .dat files and are listed in the second table below.
 
