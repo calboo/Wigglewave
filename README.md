@@ -18,7 +18,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | --- | --- |
 | B0        | background magnetic field strength                               |
 | rho0      | characteristic density                                           |
-| nr        | number of cells in redial direction                              |
+| nr        | number of cells in radial direction                              |
 | nz        | number of cells in vertical direction                            |
 | rmin      | minimum radius of domain                                         |
 | rmax      | maximum radius of domain                                         |
