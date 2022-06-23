@@ -43,7 +43,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | period | wave period in seconds                                              |
 | alpha  | &alpha; parameter, defines density scale height through 	&alpha; = H/H<sub>&rho;</sub>    |
 | zeta   | density contrast between tube centre and background density         |
-| u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>-1;</sup>          |
+| u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>-1</sup>            |
 | r0     | radius of central higher density tube                               |
 | omega  | the Alfv&egrave;n  wave frequency, currently defined based on the period |
 | topdamp  | logical for top boundary damping|
