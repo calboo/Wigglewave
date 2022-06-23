@@ -87,13 +87,10 @@ The IDL visulasation scripts that used Wigglewave outputs to generate figure tha
 
 | Script | Description |
 | --- | --- |
-| plotgraphs.pro | Produced two panel plots comparing the azimuthal velocity and azimuthal magnetic field perturbation between TAWAS
-and Wigglewave outputs respectively, used to produce Figures 10 and 11 in the Paper I|
-| b.pro | FILL|
-| c.pro | FILL|
-| d.pro | FILL|
-| e.pro | FILL|
-| f.pro | FILL|
+| plotgraphs.pro | Produces two panel plots comparing the azimuthal velocity and azimuthal magnetic field perturbation between TAWAS and Wigglewave outputs respectively, used to produce Figures 10 and 11 in Paper I.|
+| energy_graphs.pro | Produces a plot of the normalised wave energy flux across a given magnetic surface against height for TAWAS and Wigglewave outputs, used to produce Figures 12, 13 and 14 in Paper I.|
+| va_graph.pro | Plots a graph of equilibrium density and Alfv&egrave;n speed against radius at the lower boundary and a contour plot of the Alfv&egrave;n speed across the domain, used to produce Figures 1 and 2 in Paper II.|
+| vplot_wiggle.pro | Produces a graph of the azimuthal velocity against the radius, r, and height, z, for a specified Wigglewave output, used to produce Figure 3 in Paper II.|
 
 The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
 
