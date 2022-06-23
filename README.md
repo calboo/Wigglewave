@@ -87,7 +87,8 @@ The IDL visulasation scripts that used Wigglewave outputs to generate figure tha
 
 | Script | Description |
 | --- | --- |
-| a.pro | FILL|
+| plotgraphs.pro | Produced two panel plots comparing the azimuthal velocity and azimuthal magnetic field perturbation between TAWAS
+and Wigglewave outputs respectively, used to produce Figures 10 and 11 in the Paper I|
 | b.pro | FILL|
 | c.pro | FILL|
 | d.pro | FILL|
