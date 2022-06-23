@@ -12,6 +12,8 @@ and
 
 Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – II. Non-linear simulations https://academic.oup.com/mnras/article-abstract/510/2/2618/6460507?redirectedFrom=fulltext
 
+The IDL visulasation scripts that used Wigglewave outputs to generate figure that were used in these papers can be found in under Visualisation_scripts.
+
 ## Usage
 
 WiggleWave can be run simply compiled and run using gfortran. The code requires no input files but the user is able to change the problem parameters in the Constants module, the parameters are listed in the first table below.
