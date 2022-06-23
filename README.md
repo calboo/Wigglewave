@@ -12,8 +12,6 @@ and
 
 Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – II. Non-linear simulations https://academic.oup.com/mnras/article-abstract/510/2/2618/6460507?redirectedFrom=fulltext
 
-The IDL visulasation scripts that used Wigglewave outputs to generate figure that were used in these papers can be found in under Visualisation_scripts.
-
 ## Usage
 
 WiggleWave can be run simply compiled and run using gfortran. The code requires no input files but the user is able to change the problem parameters in the Constants module, the parameters are listed in the first table below.
@@ -82,3 +80,7 @@ The user must specify the grid dimensions in radial and vertical directions, nr 
 ## wave_energy.pro
 
 wave_energy.pro is an IDL script that uses outputs from Wigglewave to calculate the wave energy flux across magnetic surfaces at different heights. Before using wave_energy.pro, however, the outputs must be converted to .sav format using makesavs.pro. A detailed description of how wave_energy.pro works and what calculations it makes can be found in the accompanying PDF document wave_energy.pdf
+
+## Visualisation scripts
+
+The IDL visulasation scripts that used Wigglewave outputs to generate figure that were used in these papers can be found in under Visualisation_scripts.
