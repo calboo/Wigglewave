@@ -6,11 +6,11 @@ Wigglewave is fourth order in time and space using a fourth-order central differ
 
 Wigglewave was used extensively in the papers: 
 
-Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions, https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
+*Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions*, https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
 
 and 
 
-Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – II. Non-linear simulations, https://academic.oup.com/mnras/article-abstract/510/2/2618/6460507?redirectedFrom=fulltext
+*Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – II. Non-linear simulations*, https://academic.oup.com/mnras/article-abstract/510/2/2618/6460507?redirectedFrom=fulltext
 
 ## Usage
 
