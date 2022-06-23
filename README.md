@@ -4,9 +4,12 @@ Wigglewave is a FORTRAN code that uses a finite difference method to solve the l
 
 Wigglewave is fourth order in time and space using a fourth-order central difference scheme for calculating spatial derivatives and a fourth-order Runge-Kutta (RK4) scheme for updating at each timestep. The solutions calculated are the perturbations to the velocity, v and to the magnetic field, b. All variables are calculated over a uniform grid in radius r and height z. An in-depth explanation of the code can be found in the accompanying PDF document Wigglewave_equations.pdf.
 
-Wigglewave was used extensively in the papers: \\
-Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext \\
-and \\
+Wigglewave was used extensively in the papers: 
+
+Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
+
+and 
+
 Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – II. Non-linear simulations https://academic.oup.com/mnras/article-abstract/510/2/2618/6460507?redirectedFrom=fulltext
 
 ## Usage
