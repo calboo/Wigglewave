@@ -83,7 +83,7 @@ wave_energy.pro is an IDL script that uses outputs from Wigglewave to calculate 
 
 ## Visualisation scripts
 
-The IDL visulasation scripts that used Wigglewave outputs to generate figure that were used in these papers can be found in under Visualisation_scripts. The purpose of each script is as follows:
+The IDL visulasation scripts that used Wigglewave outputs to generate figures that were used in these two papers can be found in under Visualisation_scripts. The purpose of each script is as follows:
 
 | Script | Description |
 | --- | --- |
@@ -91,7 +91,3 @@ The IDL visulasation scripts that used Wigglewave outputs to generate figure tha
 | energy_graphs.pro | Produces a plot of the normalised wave energy flux across a given magnetic surface against height for TAWAS and Wigglewave outputs, used to produce Figures 12, 13 and 14 in Paper I.|
 | va_graph.pro | Plots a graph of equilibrium density and Alfv&egrave;n speed against radius at the lower boundary and a contour plot of the Alfv&egrave;n speed across the domain, used to produce Figures 1 and 2 in Paper II.|
 | vplot_wiggle.pro | Produces a graph of the azimuthal velocity against the radius, r, and height, z, for a specified Wigglewave output, used to produce Figure 3 in Paper II.|
-
-The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
-
-The user must also be sure that the simulation data is available for the simulation and the data is being read from the right location within the visualisation script.
